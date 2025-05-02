@@ -6,12 +6,9 @@ import { createVuetify, type ThemeDefinition } from 'vuetify';
 const reixDark: ThemeDefinition = {
   dark: true,
   colors: {
-    background: '#0F0F10',
-    fontPrimary: '#F1F1F1',
-    fontSecondary: '#A1A1A1',
-    primary: '#1976D2',
-    secondary: '#26C6DA',
-    'border-color': '#1A1A1A',
+    primary: '#1565C0',
+    secondary: '#1E88E5',
+    'font-primary': '#B0BEC5',
   },
 };
 
