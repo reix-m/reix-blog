@@ -26,7 +26,9 @@
               >
                 Contate-me
               </v-btn>
-              <v-btn variant="outlined" class="mr-2 text-none text-white" to="#projetos" rounded="lg">Ver Projetos</v-btn>
+              <v-btn variant="outlined" class="mr-2 text-none text-white" to="#projetos" rounded="lg"
+                >Ver Projetos</v-btn
+              >
             </div>
           </v-col>
           <v-col cols="12" md="6" class="d-flex justify-center justify-md-end" v-if="!mobile">
@@ -59,6 +61,18 @@
                 </span>
                 pela Impacta.
               </p>
+            </div>
+            <div class="mb-12">
+              <v-btn
+                variant="text"
+                rounded="lg"
+                class="mr-2 text-none text-high-emphasis"
+                href="/resume.pdf"
+                append-icon="mdi-open-in-new"
+				target="_blank"
+              >
+                Ver Currículo Completo
+              </v-btn>
             </div>
             <div class="mb-4">
               <div class="d-flex align-center ga-2">
